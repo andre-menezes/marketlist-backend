@@ -1,0 +1,20 @@
+{
+  "name": "marketlist-backend",
+  "version": "1.0.0",
+  "description": "Simple CRUD to manage marketlist app",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "author": "Andre Menezes",
+  "license": "MIT",
+  "homepage": "https://github.com/andre-menezes/marketlist-backend",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongodb": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
